@@ -1,6 +1,6 @@
 [package]
 name = "website-screenshot"
-version = "1.2.0"
+version = "2.0.0"
 authors = ["Tomio <mail@tomio.fun>"]
 build = "build.rs"
 categories = ["caching", "command-line-utilities", "database-implementations", "web-programming"]

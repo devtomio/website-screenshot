@@ -67,7 +67,7 @@ jobs:
 
       - name: Install Redis [-nix]
         if: matrix.os != 'windows-latest'
-        uses: shogo82148/actions-setup-redis@1375c4a775c801182a4eb02d32c9b03a67feac22 # tag=v1
+        uses: shogo82148/actions-setup-redis@f849fd367440fd3102841fa175dbd398b82b250f # tag=v1
         with:
           redis-version: 6.x
 

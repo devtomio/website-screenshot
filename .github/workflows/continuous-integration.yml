@@ -81,4 +81,4 @@ jobs:
         uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3
 
       - name: Run Dprint
-        uses: dprint/check@22f4fe0ab3ac8ce823e23e43043333fc46b76e04 # tag=v2.0
+        uses: dprint/check@b8a69d368d232496f6e82dac8fb12044fe3147d6 # tag=v2.1

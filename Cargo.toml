@@ -32,27 +32,27 @@ derive_more = "0.99.17"
 dotenv = "0.15.0"
 futures-util = "0.3.21"
 http = "0.2.8"
-once_cell = "1.12.0"
+once_cell = "1.13.0"
 rayon = "1.5.3"
 regress = "0.4.1"
-serde_json = "1.0.81"
+serde_json = "1.0.82"
 static-files = "0.2.3"
 tracing = "0.1.35"
-tracing-actix-web = "0.5.1"
+tracing-actix-web = "0.6.0"
 url = "2.2.2"
 website-screenshot-actix-governor = "0.3.0"
 
 [dependencies.tokio]
-version = "1.19.2"
+version = "1.20.0"
 features = ["full"]
 
 [dependencies.fantoccini]
-version = "0.19.0"
+version = "0.19.1"
 default-features = false
 features = ["rustls-tls"]
 
 [dependencies.serde]
-version = "1.0.137"
+version = "1.0.140"
 features = ["derive"]
 
 [dependencies.redis]
@@ -65,11 +65,11 @@ default-features = false
 features = ["rustls-tls", "json"]
 
 [dependencies.tracing-subscriber]
-version = "0.3.11"
+version = "0.3.15"
 features = ["env-filter"]
 
 [dependencies.rust-s3]
-version = "0.31.0"
+version = "0.32.1"
 default-features = false
 features = ["tokio-rustls-tls", "tags"]
 optional = true
